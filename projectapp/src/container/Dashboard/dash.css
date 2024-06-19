@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/Users/dr.mac/Desktop/reactjs/reactjs/game.webp') ;
+    background-size: cover;
+  }
+  .custom-card {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(233, 42, 42, 0.544);
+    max-width: 400px;
+    text-align: center; 
+  }
+  .status {
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+  .board-row {
+    display: flex;
+    justify-content: center;
+  }
